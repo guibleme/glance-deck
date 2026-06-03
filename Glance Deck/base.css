@@ -252,6 +252,26 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus:enabled:not(.gamepaddropd
   text-shadow: none !important;
 }
 
+#QuickAccess-Menu .Focusable.gpfocus,
+#QuickAccess-Menu .Focusable.gpfocuswithin,
+#QuickAccess-Menu .Focusable:hover,
+#QuickAccess-Menu .gpfocus,
+#QuickAccess-Menu .gpfocuswithin {
+  color: var(--glance-primary-contrast) !important;
+  text-shadow: none !important;
+}
+
+#QuickAccess-Menu .Focusable.gpfocus *,
+#QuickAccess-Menu .Focusable.gpfocuswithin *,
+#QuickAccess-Menu .Focusable:hover *,
+#QuickAccess-Menu .gpfocus *,
+#QuickAccess-Menu .gpfocuswithin * {
+  color: var(--glance-primary-contrast) !important;
+  fill: var(--glance-primary-contrast) !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+}
+
 button.gamepaddialog_Button_1kn70.DialogButton,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled,
 button.gamepaddialog_Button_1kn70.DialogButton.Primary,
