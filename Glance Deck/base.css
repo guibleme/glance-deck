@@ -39,6 +39,7 @@ body,
 
 .header_Header_1E_SL::before,
 .header_Header_1E_SL.header_OverrideHeaderBackground_MS2nB.gpfocuswithin::before,
+.header_Header_1E_SL.header_InQuickAccess_2mRo5,
 #Footer,
 #QuickAccess-Menu,
 .quickaccessmenu_Tabs_3Ag1w,
@@ -66,6 +67,53 @@ body,
   color: var(--glance-text) !important;
   border-color: var(--glance-border) !important;
   border-radius: var(--glance-radius);
+}
+
+.quickaccessmenu_Menu_1gJzx,
+.mainmenu_Menu_23IDi {
+  background: var(--glance-surface-1) !important;
+  color: var(--glance-text) !important;
+}
+
+.quickaccessmenu_Menu_1gJzx::before,
+.quickaccessmenu_Menu_1gJzx::after,
+.quickaccessmenu_Tabs_3Ag1w::before,
+.quickaccessmenu_Tabs_3Ag1w::after,
+.quickaccessmenu_Title_34nl5::before,
+.quickaccessmenu_Title_34nl5::after,
+.mainmenu_Menu_23IDi::before,
+.mainmenu_Menu_23IDi::after,
+.mainmenuapprunning_MainMenuAppRunning_1wiEs::before,
+.mainmenuapprunning_MainMenuAppRunning_1wiEs::after,
+.mainmenuapprunning_NavigationColumn_27FEg::after,
+.mainmenuapprunning_AppColumn_3FAI9::before,
+.mainmenuapprunning_AppColumn_3FAI9::after {
+  background: transparent !important;
+  box-shadow: none !important;
+  opacity: 0 !important;
+  display: none !important;
+}
+
+.quickaccessmenu_Menu_1gJzx :is(
+  .DialogLabel,
+  .marquee_Content_2ADpT,
+  .quickaccesscontrols_Text_1hJkB,
+  .gamepaddialog_FieldLabel_3b0U-,
+  .gamepaddialog_FieldDescription_2OJfk,
+  .perf_Text_3gY4m,
+  .gamepadslider_SliderNotchLabel_u_sH1,
+  .gamepadslider_EditableValue_2DXnl
+),
+.mainmenu_Menu_23IDi :is(
+  .marquee_Content_2ADpT,
+  .mainmenu_ItemLabel_3x-ZK,
+  .mainmenuapprunning_NavigationMenuItem_1G0K4,
+  .controllerconfiguratorsummary_ActivatorText_2BHzj,
+  .controllerconfiguratorsummary_StandardControl_pywHI
+) {
+  color: var(--glance-text) !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
 }
 
 #header .header_HeaderItem_2HnVd,
@@ -135,6 +183,34 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus:enabled:not(.gamepaddropd
   fill: var(--glance-primary-contrast) !important;
 }
 
+.gamepaddialog_Field_S-_La.gpfocus :is(
+  .DialogLabel,
+  .marquee_Content_2ADpT,
+  .quickaccesscontrols_Text_1hJkB,
+  .gamepaddialog_FieldLabel_3b0U-,
+  .gamepaddialog_FieldDescription_2OJfk,
+  .gamepaddialog_FieldIcon_1sC68,
+  .perf_Text_3gY4m,
+  .gamepadslider_EditableValue_2DXnl,
+  .gamepadslider_SliderNotchLabel_u_sH1
+),
+.gamepaddialog_Field_S-_La.gpfocuswithin :is(
+  .DialogLabel,
+  .marquee_Content_2ADpT,
+  .quickaccesscontrols_Text_1hJkB,
+  .gamepaddialog_FieldLabel_3b0U-,
+  .gamepaddialog_FieldDescription_2OJfk,
+  .gamepaddialog_FieldIcon_1sC68,
+  .perf_Text_3gY4m,
+  .gamepadslider_EditableValue_2DXnl,
+  .gamepadslider_SliderNotchLabel_u_sH1
+) {
+  color: var(--glance-primary-contrast) !important;
+  fill: var(--glance-primary-contrast) !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+}
+
 button.gamepaddialog_Button_1kn70.DialogButton,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled,
 button.gamepaddialog_Button_1kn70.DialogButton.Primary,
@@ -175,7 +251,9 @@ button.gamepaddialog_Button_1kn70.DialogButton.Primary:enabled,
 .libraryassetimage_Container_1R9r2::before,
 .mainmenuapprunning_NavigationColumn_27FEg::before,
 .quickaccessmenu_FooterBoxShadow_ISUYE,
-.mainmenu_FooterBoxShadow_3kHmf {
+.mainmenu_FooterBoxShadow_3kHmf,
+.quickaccessmenu_Menu_1gJzx::before,
+.quickaccessmenu_Menu_1gJzx::after {
   display: none !important;
 }
 

@@ -93,6 +93,7 @@ Every palette is calibrated against the theme roles used in Steam's UI:
 - Muted labels clear 4.5:1 on all surfaces.
 - Accent, success, and danger text clear 4.5:1 where they appear as text.
 - Focused/primary controls keep 7:1 contrast between label and background.
+- QAM and Main Menu fades are suppressed so headers and list edges stay readable.
 
 Run the audit before shipping palette changes:
 
