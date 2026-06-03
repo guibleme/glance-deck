@@ -252,26 +252,6 @@ button.gamepaddialog_Button_1kn70.DialogButton.gpfocus:enabled:not(.gamepaddropd
   text-shadow: none !important;
 }
 
-#QuickAccess-Menu .Focusable.gpfocus,
-#QuickAccess-Menu .Focusable.gpfocuswithin,
-#QuickAccess-Menu .Focusable:hover,
-#QuickAccess-Menu .gpfocus,
-#QuickAccess-Menu .gpfocuswithin {
-  color: var(--glance-primary-contrast) !important;
-  text-shadow: none !important;
-}
-
-#QuickAccess-Menu .Focusable.gpfocus *,
-#QuickAccess-Menu .Focusable.gpfocuswithin *,
-#QuickAccess-Menu .Focusable:hover *,
-#QuickAccess-Menu .gpfocus *,
-#QuickAccess-Menu .gpfocuswithin * {
-  color: var(--glance-primary-contrast) !important;
-  fill: var(--glance-primary-contrast) !important;
-  opacity: 1 !important;
-  text-shadow: none !important;
-}
-
 button.gamepaddialog_Button_1kn70.DialogButton,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled,
 button.gamepaddialog_Button_1kn70.DialogButton.Primary,
@@ -334,6 +314,29 @@ button.gamepaddialog_Button_1kn70.DialogButton.Primary:enabled,
 #QuickAccess-Menu .gamepadslider_SliderNotchLabel_u_sH1,
 #QuickAccess-Menu .gamepadslider_EditableValue_2DXnl {
   color: var(--glance-text) !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+}
+
+#QuickAccess-Menu .Focusable:not(.gpfocus):not(:hover) :is(div, span, p, label),
+#QuickAccess-Menu .Focusable:not(.gpfocus):not(:hover) :is(.DialogLabel, .marquee_Content_2ADpT) {
+  color: var(--glance-text) !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+}
+
+#QuickAccess-Menu .Focusable.gpfocus,
+#QuickAccess-Menu .Focusable:hover {
+  color: var(--glance-primary-contrast) !important;
+  text-shadow: none !important;
+}
+
+#QuickAccess-Menu .Focusable.gpfocus :is(div, span, p, label, .DialogLabel, .marquee_Content_2ADpT),
+#QuickAccess-Menu .Focusable:hover :is(div, span, p, label, .DialogLabel, .marquee_Content_2ADpT),
+#QuickAccess-Menu .gamepaddialog_Field_S-_La.gpfocus :is(div, span, p, label, .DialogLabel, .marquee_Content_2ADpT),
+#QuickAccess-Menu .gamepaddialog_Field_S-_La.gpfocuswithin :is(div, span, p, label, .DialogLabel, .marquee_Content_2ADpT) {
+  color: var(--glance-primary-contrast) !important;
+  fill: var(--glance-primary-contrast) !important;
   opacity: 1 !important;
   text-shadow: none !important;
 }

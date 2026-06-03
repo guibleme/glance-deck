@@ -65,4 +65,4 @@ Suppress fades, glows, and pseudo-element shadows when they interfere with readi
 - Default menu and QAM labels should use `--glance-text` or `--glance-muted` with `opacity: 1`.
 - Separators should be quiet and structural, not bright decorative lines.
 - Do not introduce layout changes unless a selector is clearly tied to readability.
-
+- Never use unqualified `.gpfocus *` or `.gpfocuswithin *` overrides inside QAM. Decky can apply focus classes to parent containers, which can accidentally recolor an entire panel.
