@@ -1,0 +1,14 @@
+:root {
+  --glance-bg: hsl(240 27% 11%);
+  --glance-surface-1: hsl(240 27% 15%);
+  --glance-surface-2: hsl(240 27% 20%);
+  --glance-surface-3: hsl(240 27% 28%);
+  --glance-border: hsl(240 27% 40%);
+  --glance-text: hsl(240 36% 94%);
+  --glance-muted: hsl(240 20% 70%);
+  --glance-primary: hsl(321 100% 71%);
+  --glance-primary-contrast: hsl(240 27% 7%);
+  --glance-positive: hsl(165 78% 51%);
+  --glance-negative: hsl(360 100% 71%);
+}
+

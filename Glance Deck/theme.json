@@ -1,0 +1,98 @@
+{
+  "name": "Glance Deck",
+  "author": "guibleme",
+  "version": "v0.1.0",
+  "manifest_version": 8,
+  "target": "System-Wide",
+  "description": "Steam Deck CSS Loader theme pack based on the official Glance dashboard palettes.",
+  "tabs": {
+    "all": [
+      "bigpicture",
+      "bigpictureoverlay",
+      "notificationtoasts.*"
+    ]
+  },
+  "inject": {
+    "base.css": [
+      "all"
+    ]
+  },
+  "patches": {
+    "Palette": {
+      "type": "dropdown",
+      "default": "Teal City",
+      "values": {
+        "Teal City": {
+          "palettes/teal-city.css": [
+            "all"
+          ]
+        },
+        "Catppuccin Frappe": {
+          "palettes/catppuccin-frappe.css": [
+            "all"
+          ]
+        },
+        "Catppuccin Macchiato": {
+          "palettes/catppuccin-macchiato.css": [
+            "all"
+          ]
+        },
+        "Catppuccin Mocha": {
+          "palettes/catppuccin-mocha.css": [
+            "all"
+          ]
+        },
+        "Camouflage": {
+          "palettes/camouflage.css": [
+            "all"
+          ]
+        },
+        "Gruvbox Dark": {
+          "palettes/gruvbox-dark.css": [
+            "all"
+          ]
+        },
+        "Kanagawa Dark": {
+          "palettes/kanagawa-dark.css": [
+            "all"
+          ]
+        },
+        "Tucan": {
+          "palettes/tucan.css": [
+            "all"
+          ]
+        },
+        "Dracula": {
+          "palettes/dracula.css": [
+            "all"
+          ]
+        },
+        "Shades of Purple": {
+          "palettes/shades-of-purple.css": [
+            "all"
+          ]
+        },
+        "Neon Pink": {
+          "palettes/neon-pink.css": [
+            "all"
+          ]
+        },
+        "Catppuccin Latte": {
+          "palettes/catppuccin-latte.css": [
+            "all"
+          ]
+        },
+        "Peachy": {
+          "palettes/peachy.css": [
+            "all"
+          ]
+        },
+        "Zebra": {
+          "palettes/zebra.css": [
+            "all"
+          ]
+        }
+      }
+    }
+  }
+}
