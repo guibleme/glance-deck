@@ -69,6 +69,18 @@ body,
   border-radius: var(--glance-radius);
 }
 
+.quickaccessmenu_Title_34nl5,
+.quickaccessmenu_TabGroupPanel_1QO7b,
+.quickaccessmenu_TabGroupPanel_1QO7b.scrollpanel_ScrollPanel_1CXdi,
+.quickaccessmenu_TabGroupPanel_1QO7b.tab_undefined,
+.quickaccessmenu_TabGroupPanel_1QO7b > .scrollpanel_ScrollPanel_1CXdi,
+.quickaccessmenu_QuickAccessMenu_V0cr-,
+#QuickAccess-Menu.quickaccessmenu_HeaderAndFooterVisible_2m0zl {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  text-shadow: none !important;
+}
+
 .quickaccessmenu_Menu_1gJzx,
 .mainmenu_Menu_23IDi {
   background: var(--glance-surface-1) !important;
@@ -81,6 +93,12 @@ body,
 .quickaccessmenu_Tabs_3Ag1w::after,
 .quickaccessmenu_Title_34nl5::before,
 .quickaccessmenu_Title_34nl5::after,
+.quickaccessmenu_TabGroupPanel_1QO7b::before,
+.quickaccessmenu_TabGroupPanel_1QO7b::after,
+.quickaccessmenu_TabGroupPanel_1QO7b.scrollpanel_ScrollPanel_1CXdi::before,
+.quickaccessmenu_TabGroupPanel_1QO7b.scrollpanel_ScrollPanel_1CXdi::after,
+.quickaccessmenu_TabGroupPanel_1QO7b > .scrollpanel_ScrollPanel_1CXdi::before,
+.quickaccessmenu_TabGroupPanel_1QO7b > .scrollpanel_ScrollPanel_1CXdi::after,
 .mainmenu_Menu_23IDi::before,
 .mainmenu_Menu_23IDi::after,
 .mainmenuapprunning_MainMenuAppRunning_1wiEs::before,
@@ -253,8 +271,28 @@ button.gamepaddialog_Button_1kn70.DialogButton.Primary:enabled,
 .quickaccessmenu_FooterBoxShadow_ISUYE,
 .mainmenu_FooterBoxShadow_3kHmf,
 .quickaccessmenu_Menu_1gJzx::before,
-.quickaccessmenu_Menu_1gJzx::after {
+.quickaccessmenu_Menu_1gJzx::after,
+.quickaccessmenu_Title_34nl5::before,
+.quickaccessmenu_Title_34nl5::after,
+.quickaccessmenu_TabGroupPanel_1QO7b::before,
+.quickaccessmenu_TabGroupPanel_1QO7b::after {
   display: none !important;
+}
+
+#QuickAccess-Menu .quickaccessmenu_Title_34nl5,
+#QuickAccess-Menu .gamepaddialog_FieldLabel_3b0U-,
+#QuickAccess-Menu .gamepaddialog_FieldLabel_3b0U- > .DialogLabel,
+#QuickAccess-Menu .gamepaddialog_FieldDescription_2OJfk,
+#QuickAccess-Menu .quickaccesscontrols_Text_1hJkB,
+#QuickAccess-Menu .quickaccesscontrols_BatteryProjectedLabel_4hS40,
+#QuickAccess-Menu .quickaccesscontrols_BatteryDetailsLabels_3M39z .quickaccesscontrols_BatteryProjectedValue_1mTo6,
+#QuickAccess-Menu .quickaccesscontrols_BatteryPercentageLabel_3Rxxi,
+#QuickAccess-Menu .perf_Text_3gY4m,
+#QuickAccess-Menu .gamepadslider_SliderNotchLabel_u_sH1,
+#QuickAccess-Menu .gamepadslider_EditableValue_2DXnl {
+  color: var(--glance-text) !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
 }
 
 .gamepadhomerecentgames_RecentGamesBackgroundFadeGradient_1ksIq {
