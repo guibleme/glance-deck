@@ -10,7 +10,7 @@
   --glance-primary-contrast: hsl(225 14% 10%);
   --glance-positive: hsl(115 54% 76%);
   --glance-negative: hsl(347 70% 65%);
-  --glance-radius: 12px;
+  --glance-radius: 6px;
   --glance-focus-shadow: 0 0 0 2px var(--glance-primary), 0 0 18px hsl(0 0% 0% / 0.35);
 }
 
@@ -216,4 +216,3 @@ button.gamepaddialog_Button_1kn70.DialogButton.Primary:enabled,
 #Footer {
   border: 0 !important;
 }
-

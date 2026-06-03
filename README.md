@@ -12,6 +12,7 @@ Glance has a really clean, readable color system for dashboards. This project br
 ## Palettes
 
 `Glance Deck` installs as one CSS Loader theme with a `Palette` dropdown.
+It also includes a `Corner Radius` slider so you can choose sharper or softer UI edges.
 
 Dark palettes:
 
@@ -49,6 +50,7 @@ Light palettes:
 5. Return to Gaming Mode.
 6. Open Quick Access Menu > Decky > CSS Loader.
 7. Press Refresh, enable `Glance Deck`, and choose a palette.
+8. Adjust `Corner Radius` if the controls feel too sharp or too soft.
 
 ### Git install
 

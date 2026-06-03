@@ -1,7 +1,7 @@
 {
   "name": "Glance Deck",
   "author": "guibleme",
-  "version": "v0.1.1",
+  "version": "v0.1.2",
   "manifest_version": 8,
   "target": "System-Wide",
   "description": "Steam Deck CSS Loader theme pack based on the official Glance dashboard palettes.",
@@ -89,6 +89,38 @@
         },
         "Zebra": {
           "palettes/zebra.css": [
+            "all"
+          ]
+        }
+      }
+    },
+    "Corner Radius": {
+      "type": "slider",
+      "default": "6px",
+      "values": {
+        "0px": {
+          "radius/0px.css": [
+            "all"
+          ]
+        },
+        "4px": {
+          "radius/4px.css": [
+            "all"
+          ]
+        },
+        "6px": {},
+        "8px": {
+          "radius/8px.css": [
+            "all"
+          ]
+        },
+        "12px": {
+          "radius/12px.css": [
+            "all"
+          ]
+        },
+        "16px": {
+          "radius/16px.css": [
             "all"
           ]
         }
