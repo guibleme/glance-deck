@@ -5,10 +5,10 @@
   --glance-surface-3: hsl(232 23% 34%);
   --glance-border: hsl(232 23% 45%);
   --glance-text: hsl(232 34% 92%);
-  --glance-muted: hsl(232 23% 70%);
-  --glance-primary: hsl(220 83% 75%);
+  --glance-muted: hsl(232 23% 76.5%);
+  --glance-primary: hsl(220 83% 79%);
   --glance-primary-contrast: hsl(232 23% 10%);
   --glance-positive: hsl(105 48% 72%);
-  --glance-negative: hsl(351 74% 73%);
+  --glance-negative: hsl(351 74% 80%);
 }
 

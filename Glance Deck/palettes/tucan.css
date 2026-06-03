@@ -6,9 +6,9 @@
   --glance-border: hsl(50 8% 36%);
   --glance-text: hsl(50 18% 92%);
   --glance-muted: hsl(50 12% 68%);
-  --glance-primary: hsl(24 97% 58%);
+  --glance-primary: hsl(24 97% 63%);
   --glance-primary-contrast: hsl(50 1% 5%);
   --glance-positive: hsl(145 68% 54%);
-  --glance-negative: hsl(209 88% 54%);
+  --glance-negative: hsl(209 88% 68.5%);
 }
 

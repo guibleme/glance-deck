@@ -83,6 +83,21 @@ CSS Loader can watch files while you edit. Create this file on the Deck:
 
 After that, edits to CSS files under `Glance Deck/` should reload automatically. If they do not, open CSS Loader and press Refresh.
 
+## Accessibility
+
+Every palette is calibrated against the theme roles used in Steam's UI:
+
+- Main text clears 7:1 on primary surfaces.
+- Muted labels clear 4.5:1 on all surfaces.
+- Accent, success, and danger text clear 4.5:1 where they appear as text.
+- Focused/primary controls keep 7:1 contrast between label and background.
+
+Run the audit before shipping palette changes:
+
+```bash
+node scripts/audit-contrast.mjs
+```
+
 ## Credits
 
 Palette values come from the official [Glance themes documentation](https://github.com/glanceapp/glance/blob/main/docs/themes.md).
