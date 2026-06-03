@@ -84,7 +84,28 @@ body,
 .quickaccessmenu_Menu_1gJzx,
 .mainmenu_Menu_23IDi {
   background: var(--glance-surface-1) !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
   color: var(--glance-text) !important;
+}
+
+.backgroundglass_BackgroundGlass_3rsrz.backgroundglass_DrawBackground_2NQoF,
+.backgroundglass_BackgroundGlass_3rsrz.backgroundglass_Blur_N9sQL,
+.mainmenu_Container_3vzvO.mainmenu_Open_3apLK {
+  background: transparent !important;
+  background-image: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+.mainmenu_Menu_23IDi > :not(.mainmenu_Item_2w9Tp) {
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
 }
 
 .quickaccessmenu_Menu_1gJzx::before,
@@ -101,6 +122,8 @@ body,
 .quickaccessmenu_TabGroupPanel_1QO7b > .scrollpanel_ScrollPanel_1CXdi::after,
 .mainmenu_Menu_23IDi::before,
 .mainmenu_Menu_23IDi::after,
+.mainmenu_Menu_23IDi > :not(.mainmenu_Item_2w9Tp)::before,
+.mainmenu_Menu_23IDi > :not(.mainmenu_Item_2w9Tp)::after,
 .mainmenuapprunning_MainMenuAppRunning_1wiEs::before,
 .mainmenuapprunning_MainMenuAppRunning_1wiEs::after,
 .mainmenuapprunning_NavigationColumn_27FEg::after,
